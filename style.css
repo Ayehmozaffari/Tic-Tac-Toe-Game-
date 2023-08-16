@@ -40,21 +40,22 @@ body {
   }
   
   #tic-tac-toe td.X {
-    color: #ed676b;
-    color: #ed676b;
+    color: #82f2ff;
+    
 text-shadow: 1px 1px 1px #ffffff,
-3px 3px 3px #ffa1a4,
-3px 3px 3px #f1767a,
-3px 3px 3px #f36b70;
+3px 3px 3px #beecfa,
+3px 3px 3px #80ccd0,
+3px 3px 3px #53b2bd;
   }
   
   #tic-tac-toe td.O {
-    color: #23916b;
-    color: #23916b;
+  
+    color: #fcf63a;
+    
     text-shadow: 1px 1px 1px #fff,
-    3px 3px 3px #3becae,
-    3px 3px 3px #2bb283,
-    3px 3px 3px #279e74;
+    3px 3px 3px #efea6d,
+    3px 3px 3px #f9f06d,
+    3px 3px 3px #fce74b;
   }
   
   #scoreboard .score {
