@@ -1,57 +1,71 @@
-body{
+
+body {
+    background-color: #000000ed;
     font: normal 16px comic sans ms;
-    text-align: center;
-    background-color: #121751;
     color: #ffffff;
-}
-#tic-tac-toe{
+    text-align: center;
+
+  }
+  
+  #tic-tac-toe {
     cell-spacing: 0px;
     border-spacing: 0px;
     border-collapse: separate;
     margin: 30px auto;
-}
-#tic-tac-toe td{
-    border: 2px solid #000;
+  }
+  
+  #tic-tac-toe td {
+    border: 2px solid #fff;
+   
     height: 100px;
     width: 100px;
     text-align: center;
     font: bold 60px comic sans ms;
-}
-#tic-tac-toe tr:first-child td{
+  }
+  
+  #tic-tac-toe tr:first-child td {
     border-top: none;
-}
-#tic-tac-toe tr:last-child td{
+  }
+  
+  #tic-tac-toe tr:last-child td {
     border-bottom: none;
-}
-#tic-tac-toe tr td:first-child{
+  }
+  
+  #tic-tac-toe tr td:first-child {
     border-left: none;
-}
-#tic-tac-toetr td:last-child{
+  }
+  
+  #tic-tac-toe tr td:last-child {
     border-right: none;
-}
-#tic-tac-toe td.X{
-color: #ed676b;
+  }
+  
+  #tic-tac-toe td.X {
+    color: #ed676b;
+    color: #ed676b;
 text-shadow: 1px 1px 1px #ffffff,
 3px 3px 3px #ffa1a4,
 3px 3px 3px #f1767a,
 3px 3px 3px #f36b70;
-}
-#tic-tac-toe td.O{
+  }
+  
+  #tic-tac-toe td.O {
+    color: #23916b;
     color: #23916b;
     text-shadow: 1px 1px 1px #fff,
     3px 3px 3px #3becae,
     3px 3px 3px #2bb283,
     3px 3px 3px #279e74;
-
-}
-#scoreboard .score{
+  }
+  
+  #scoreboard .score {
     text-align: center;
     font-size: 30px;
-}
-#scoreboard .score#player1{
+  }
+  
+  #scoreboard .score#player1 {
     color: #ed676b;
-   
-}
-#scoreboard .score#player2{
+  }
+  
+  #scoreboard .score#player2 {
     color: #23916b;
-}
+  }
